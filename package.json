@@ -29,10 +29,12 @@
   ],
   "dependencies": {
     "@solid/community-server": "^7.0.3",
+    "cloneable-readable": "^3.0.0",
     "penny-pod-inspector": "^0.1024692321.5216227821"
   },
   "devDependencies": {
     "@tsconfig/node18": "^18.2.2",
+    "@types/cloneable-readable": "^2.0.3",
     "@types/jest": "^29.5.12",
     "componentsjs-generator": "^3.1.2",
     "jest": "^29.7.0",
