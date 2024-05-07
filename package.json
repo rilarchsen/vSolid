@@ -39,6 +39,7 @@
     "iso-bench": "^2.4.7",
     "node": "^20.12.2",
     "penny-pod-inspector": "^0.1024692321.5216227821",
+    "rdf-dataset-fragmenter": "^2.7.1",
     "solidbench": "^1.7.1"
   },
   "devDependencies": {
