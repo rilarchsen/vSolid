@@ -10,3 +10,6 @@ bencherResults/
 *.log
 
 *.csv
+
+solidbench/*
+!solidbench/config/

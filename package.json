@@ -26,7 +26,7 @@
     "prepare": "npm run build",
     "test": "jest",
     "bench": "cd ./benny && tsc && node ./dist/runner.js",
-    "solidbench": "solidbench generate"
+    "solidbench": "cd solidbench && solidbench generate --fragmentConfig config/fragmenter_config_pod.json --overwrite true"
   },
   "files": [
     "dist",
