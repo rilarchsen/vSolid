@@ -460,7 +460,7 @@
         "outputFormat": "application/n-quads",
         "fileExtension": "$.ttl",
         "iriToPath": {
-          "http://": "solidbench/data/out-fragments/http/",
+          "http://": ".data/",
           "https://": "solidbench/data/out-fragments/https/"
         }
       },

@@ -85,7 +85,7 @@ export class VersionMaterializationHandler extends OperationHandler {
     deltaRepresentation: Representation,
     archiveID: string
   ): Promise<Quad[]> {
-    var nextDelta = currentRepresentation.metadata.get(
+    let nextDelta = currentRepresentation.metadata.get(
       DataFactory.namedNode(VS.next_delta)
     )?.value;
 
