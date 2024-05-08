@@ -26,7 +26,8 @@
     "prepare": "npm run build",
     "test": "jest",
     "bench": "cd ./benny && tsc && node ./dist/runner.js",
-    "solidbench": "cd solidbench && solidbench generate --scale 0.1 --fragmentConfig config/fragmenter_config_pod.json --enhancementFragmentConfig config/fragmenter-auxiliary-config-subject.json"
+    "solidbench": "cd solidbench && solidbench generate --scale 0.1 --fragmentConfig config/fragmenter_config_pod.json --enhancementFragmentConfig config/fragmenter-auxiliary-config-subject.json",
+    "fragment": "rdf-dataset-fragmenter solidbench/config.json"
   },
   "files": [
     "dist",
@@ -39,7 +40,7 @@
     "iso-bench": "^2.4.7",
     "node": "^20.12.2",
     "penny-pod-inspector": "^0.1024692321.5216227821",
-    "rdf-dataset-fragmenter": "^2.7.1",
+    "rdf-dataset-fragmenter": "file:../rdf-dataset-fragmenter.js",
     "solidbench": "^1.7.1"
   },
   "devDependencies": {

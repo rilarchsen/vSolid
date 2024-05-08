@@ -11,5 +11,4 @@ bencherResults/
 
 *.csv
 
-solidbench/*
-!solidbench/config/
+solidbench/data
